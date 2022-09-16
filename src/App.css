@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.main{
+  background-color: lightgray;
+  height: 600px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.daylight{
+  background-color: yellow;
+  height: 600px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nightlight{
+  background-color: black;
+  height: 600px;
   color: white;
 }
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.App-link {
-  color: #61dafb;
+}
+.val{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn{
+  margin-left: 40%;
+  margin-top: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inc{
+  background-color: green;
+  border-radius:4px;
+  color: white;
+  border-style:hidden;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.res{
+  margin-left: 30px;
+  background-color: gray;
+  border-radius:2px ;
+  border-style: hidden;
+  color: white;
+  cursor: pointer;
+
+}
+.dec{
+  margin-left: 30px;
+  background-color: red;
+  border-radius:4px;
+  color: white;
+  border-style:hidden;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.light{
+  margin-left: 78px;
+  margin-top: 90px;
+  font-size: 20px;
+  color: white;
+  background-color:darkorange ;
+  border-style: hidden;
+  border-radius: 5px;
+  cursor: pointer;
 }
